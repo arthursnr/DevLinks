@@ -7,22 +7,22 @@
 /*CRIANDO VARIAVES*/
 :root {
     --textcolor: white;
-    --bg-url: url(style/assets/bg-mobile.jpg);
+    --bg-url: url(/style/assets/bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.05);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(style/assets/moon-stars.svg)
+    --switch-bg-url: url(/style/assets/moon-stars.svg)
 }
 
 .light {
     --textcolor: black;
-    --bg-url: url(style/assets/bg-mobile-light.jpg);
+    --bg-url: url(/style/assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(style/assets/sun.svg);
+    --switch-bg-url: url(/style/assets/sun.svg);
 }
 
 /*----------------------------------*/
@@ -181,11 +181,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
     :root {
-        --bg-url: url(style/assets/bg-desktop.jpg);
+        --bg-url: url(/style/assets/bg-desktop.jpg);
     }
 
     .light {
-        --bg-url: url(style/assets/bg-desktop-light.jpg);
+        --bg-url: url(/style/assets/bg-desktop-light.jpg);
     }
 }
 
